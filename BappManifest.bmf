@@ -1,0 +1,13 @@
+Uuid: 67c8a830b8de492b91f41b4eac5ab021
+ExtensionType: 1
+Name: HAR Importer
+RepoName: har-importer
+ScreenVersion: 1.0
+SerialVersion: 1
+MinPlatformVersion: 6
+ProOnly: False
+Author: Fortalice Solutions, LLC
+ShortDescription: Import HAR export files into Burp.
+EntryPoint: build/libs/Test-1.0-SNAPSHOT.jar
+BuildCommand: ./gradlew jar
+SupportedProducts: Pro, Community

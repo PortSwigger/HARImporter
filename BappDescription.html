@@ -1,0 +1,30 @@
+<p>This extension allows you to load the contents of HAR files into Burp Suite's Sitemap tool. HAR (HTTP Archive) files are used to store data about web browsers' interactions with a website. They can capture web traffic that occurs between a web browser and a site. Each HAR file is a JSON-formatted archive file that contains a log of web transactions, including but not limited to HTTP response and request headers, web page load timings, and metadata. These files can be generated from most major web browsers, such as Chrome, Firefox, and Safari, usually from within the Developer Tools.</p>
+
+<p>Usage</p>
+
+<p>HAR importer allows you to import HAR files into Burp Suite's Site Map tool for further analysis.</p>
+<ol>
+	<li>
+		After loading the extension, a new tab named "HAR Importer" will appear.
+	</li>
+	<li>
+		Click the large button at the top labeled "Import HAR".
+	</li>
+	<li>
+		A file selection dialog will appear where you can select your HAR file.
+	</li>
+	<li>
+		Once your file is loaded, right-click any item in the list, and you'll have three options:
+		<ul>
+			<li>
+				Send Selected to Sitemap - Will send only selected items to Burp Suite's Sitemap
+			</li>
+			<li>
+				 Send All to Sitemap - Will send all items to Burp Suite's Sitemap
+			</li>
+			<li>
+				Clear List - Will remove all items from the import list
+			</li>
+		</ul>
+	</li>
+</ol>
